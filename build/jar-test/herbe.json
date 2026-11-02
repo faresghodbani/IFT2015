@@ -1,0 +1,13 @@
+{
+	"rules" : {
+		"F" : [	"F[+F]F[-F]F","F[+F]F","F[+F]F[-F]F"]
+	},
+	"axiom":"F",
+	"actions": {
+		"F":"draw", 
+		"[":"push",
+		"]":"pop", 
+		"+":"turnL", 
+		"-":"turnR"},
+	"parameters" : {"step": 2, "angle":22.5, "start":[250,0,90]}
+}

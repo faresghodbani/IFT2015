@@ -1,0 +1,13 @@
+{
+	"rules" : {
+		"L": ["R+L+R"],
+		"R": ["L-R-L"]
+	},
+	"axiom" : "L",
+	"actions": {
+		"L":"draw", 
+		"R":"draw", 
+		"+":"turnL", 
+		"-":"turnR"},
+	"parameters" : {"step": 1, "angle":60, "start":[0,0,0]}
+}
